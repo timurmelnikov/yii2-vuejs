@@ -16,8 +16,6 @@ class VueAsset extends AssetBundle
 {
     public $sourcePath = '@bower/vue/dist';
     
-
-
     /**
     * Метод инициализации
     */
