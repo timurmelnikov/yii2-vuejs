@@ -19,6 +19,8 @@ class VueResourceAsset extends AssetBundle
         'timurmelnikov\assets\VueAsset'
         ];
 
+    //С этим, нужно что-то делать...    
+    public $jsOptions = ['position' => \yii\web\View::POS_HEAD];
 
     /**
     * Метод инициализации

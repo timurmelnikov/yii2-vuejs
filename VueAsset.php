@@ -15,6 +15,9 @@ use yii\web\AssetBundle;
 class VueAsset extends AssetBundle
 {
     public $sourcePath = '@bower/vue/dist';
+
+    //С этим, нужно что-то делать...  
+    public $jsOptions = ['position' => \yii\web\View::POS_HEAD];
     
     /**
     * Метод инициализации
