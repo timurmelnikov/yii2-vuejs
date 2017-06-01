@@ -14,8 +14,7 @@
     }],
     "require": {
         "yiisoft/yii2": "*",
-        "bower-asset/vue": "~2.0.0",
-        "bower-asset/vue-resource": "~1.0.0"
+        "bower-asset/vue": "~2.0.0"
     },
     "autoload": {
         "psr-4": {
