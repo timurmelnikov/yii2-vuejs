@@ -14,7 +14,7 @@ use yii\web\AssetBundle;
  */
 class VueResourceAsset extends AssetBundle
 {
-    public $sourcePath = '@bower/vue/dist';
+    public $sourcePath = '@bower/vue-resource/dist';
     public $depends = [
         'timurmelnikov\assets\VueAsset'
         ];
